@@ -7,6 +7,11 @@ edition = "2021"
 crate-type = ["cdylib"]
 
 [dependencies]
+ab_glyph = "0.2.26"
+image = "0.25.1"
+imageproc = "0.25.0"
+num-complex = "0.4.6"
+rand = "0.8.5"
 worker = "0.0.18"
 
 [profile.release]
