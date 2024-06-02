@@ -1,3 +1,14 @@
+## about
+This repo is created by [Cloudflare Workers — Rust language support · Cloudflare Workers docs](https://developers.cloudflare.com/workers/languages/rust/).
+
+```bash
+npx wrangler generate hello-world-rust https://github.com/cloudflare/workers-sdk/templates/experimental/worker-rust
+```
+and rename directory. That's it.
+```bash
+mv hello-world-rust/ cloudflare-worker-rust-sample/
+```
+
 # Template: worker-rust
 
 [![Deploy with Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cloudflare/workers-sdk/tree/main/templates/experimental/worker-rust)
